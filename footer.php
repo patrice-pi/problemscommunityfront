@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-4">
-        <ul>
+        <ul id="menu-footer" class="list-unstyled">
           <li><a href="/">Accueil</a></li>
           <li><a href="contact.php">Support / Contact</a></li>
         </ul>
