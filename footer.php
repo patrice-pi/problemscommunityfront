@@ -4,6 +4,8 @@
       <div class="col-md-4">
         <ul id="menu-footer" class="list-unstyled">
           <li><a href="/">Accueil</a></li>
+          <li><a href="/">Mon compte</a></li>
+          <li><a href="/">Tous les posts</a></li>
           <li><a href="contact.php">Support / Contact</a></li>
         </ul>
       </div>
@@ -20,6 +22,8 @@
 
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.0/vue.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/app.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
 </html>

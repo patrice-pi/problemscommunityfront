@@ -1,146 +1,69 @@
 <?php
-  $page = "accueil";
+$page = "accueil";
 
-  require('header.php');
+require('header.php');
 ?>
 
 <header>
-  <div class="container">
-    <form class="" action="index.html" method="post" id="form_recherche_posts">
-      <input type="text" class="form-control" name="" value="" placeholder="Rechercher un posts">
-      <br/>
-      <button type="button" name="button" class="btn btn-primary">Rechercher</button>
-    </form>
-  </div>
+    <div class="container">
+        <div class="form-recherche">
+            <h1>Trouver la réponse à votre problème :</h1>
+            <form class="" action="index.html" method="post" id="form_recherche_posts">
+                <input type="text" class="form-control" name="" value="" placeholder="Rechercher un posts">
+                <br/>
+                <div class="text-right">
+                    <button type="button" name="button" class="btn btn-primary">Rechercher</button>
+                </div>
+            </form>
+        </div>
+    </div>
 </header>
 
 <main id="content">
-  <section class="container">
-    <div class="row">
-      <div class="col-md-9">
-        <h2>Derniers Posts :</h2>
-        <ul class="list-unstyled">
-          <li>
-            <a href="#">
-              <h3>Probleme PHP Server Name</h3>
-              <ul class="competences list-inline pull-right">
-                <li><span class="label label-info">PHP</span></li>
-                <li><span class="label label-info">Server</span></li>
-                <li><span class="label label-info">Git</span></li>
-              </ul>
-
-              <div class="clearfix"></div>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur ?
-              </p>
-            </a>
-          </li>
-          <hr>
-          <li>
-            <a href="#">
-              <h3>Probleme PHP Server Name</h3>
-              <ul class="competences list-inline pull-right">
-                <li><span class="label label-info">PHP</span></li>
-                <li><span class="label label-info">Server</span></li>
-                <li><span class="label label-info">Git</span></li>
-              </ul>
-
-              <div class="clearfix"></div>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur ?
-              </p>
-            </a>
-          </li>
-          <hr>
-          <li>
-            <a href="#">
-              <h3>Probleme PHP Server Name</h3>
-              <ul class="competences list-inline pull-right">
-                <li><span class="label label-info">PHP</span></li>
-                <li><span class="label label-info">Server</span></li>
-                <li><span class="label label-info">Git</span></li>
-              </ul>
-
-              <div class="clearfix"></div>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur ?
-              </p>
-            </a>
-          </li>
-          <hr>
-          <li>
-            <a href="#">
-              <h3>Probleme PHP Server Name</h3>
-              <ul class="competences list-inline pull-right">
-                <li><span class="label label-info">PHP</span></li>
-                <li><span class="label label-info">Server</span></li>
-                <li><span class="label label-info">Git</span></li>
-              </ul>
-
-              <div class="clearfix"></div>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur ?
-              </p>
-            </a>
-          </li>
-          <hr>
-          <li>
-            <a href="#">
-              <h3>Probleme PHP Server Name</h3>
-              <ul class="competences list-inline pull-right">
-                <li><span class="label label-info">PHP</span></li>
-                <li><span class="label label-info">Server</span></li>
-                <li><span class="label label-info">Git</span></li>
-              </ul>
-
-              <div class="clearfix"></div>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur ?
-              </p>
-            </a>
-          </li>
-          <hr>
-          <li>
-            <a href="#">
-              <h3>Probleme PHP Server Name</h3>
-              <ul class="competences list-inline pull-right">
-                <li><span class="label label-info">PHP</span></li>
-                <li><span class="label label-info">Server</span></li>
-                <li><span class="label label-info">Git</span></li>
-              </ul>
-
-              <div class="clearfix"></div>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur ?
-              </p>
-            </a>
-          </li>
-          <hr>
-          <li>
-            <a href="#">
-              <h3>Probleme PHP Server Name</h3>
-              <ul class="competences list-inline pull-right">
-                <li><span class="label label-info">PHP</span></li>
-                <li><span class="label label-info">Server</span></li>
-                <li><span class="label label-info">Git</span></li>
-              </ul>
-
-              <div class="clearfix"></div>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur ?
-              </p>
-            </a>
-          </li>
-          <hr>
-        </ul>
-      </div>
-      <div class="col-md-3">
-
-      </div>
-    </div>
-  </section>
+    <section class="container">
+        <div class="row">
+            <div class="col-md-9">
+                <h2>Les derniers posts :</h2>
+                <div id="posts">
+                    <ul class="list-unstyled">
+                        <post-item v-for="post in posts" v-bind:post="post" v-bind:key="post.id"></post-item>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div id="categories" class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h2 class="panel-title">Catégories</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul class="list-unstyled">
+                            <li v-for="categorie in categories" class="bg-info" style="padding: 5px; margin-bottom: 10px;">
+                              <a :href="categorie.link">{{ categorie.title }}</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="categories" class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h2 class="panel-title">Commentaires</h2>
+                    </div>
+                    <div class="panel-body">
+                        Aucun commentaire
+                    </div>
+                </div>
+                <div id="categories" class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h2 class="panel-title">Archives</h2>
+                    </div>
+                    <div class="panel-body">
+                        Aucune archive
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 
 <?php
-  require('footer.php');
+require('footer.php');
 ?>
