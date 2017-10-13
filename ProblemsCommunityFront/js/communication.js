@@ -14,3 +14,9 @@ $.ajax({
   });
 
 });
+
+
+$.ajax({
+  method: "GET",
+  url:
+})
